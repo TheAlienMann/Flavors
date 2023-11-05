@@ -16,6 +16,10 @@
 		49DB5F132AF7D3EE006FD43E /* FlavorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DB5F122AF7D3EE006FD43E /* FlavorsTests.swift */; };
 		49DB5F1D2AF7D3EE006FD43E /* FlavorsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DB5F1C2AF7D3EE006FD43E /* FlavorsUITests.swift */; };
 		49DB5F1F2AF7D3EE006FD43E /* FlavorsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DB5F1E2AF7D3EE006FD43E /* FlavorsUITestsLaunchTests.swift */; };
+		49DB5F2D2AF7D51E006FD43E /* Base.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 49DB5F2C2AF7D51E006FD43E /* Base.xcconfig */; };
+		49DB5F312AF7D564006FD43E /* Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 49DB5F302AF7D564006FD43E /* Release.xcconfig */; };
+		49DB5F322AF7D56B006FD43E /* Staging.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 49DB5F2F2AF7D551006FD43E /* Staging.xcconfig */; };
+		49DB5F332AF7D56E006FD43E /* Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 49DB5F2E2AF7D545006FD43E /* Debug.xcconfig */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		49DB5F182AF7D3EE006FD43E /* FlavorsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlavorsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		49DB5F1C2AF7D3EE006FD43E /* FlavorsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlavorsUITests.swift; sourceTree = "<group>"; };
 		49DB5F1E2AF7D3EE006FD43E /* FlavorsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlavorsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		49DB5F2C2AF7D51E006FD43E /* Base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Base.xcconfig; sourceTree = "<group>"; };
+		49DB5F2E2AF7D545006FD43E /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		49DB5F2F2AF7D551006FD43E /* Staging.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Staging.xcconfig; sourceTree = "<group>"; };
+		49DB5F302AF7D564006FD43E /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,7 @@
 		49DB5EFA2AF7D3E8006FD43E /* Flavors */ = {
 			isa = PBXGroup;
 			children = (
+				49DB5F2B2AF7D4FD006FD43E /* Configs */,
 				49DB5EFB2AF7D3E8006FD43E /* AppDelegate.swift */,
 				49DB5EFD2AF7D3E8006FD43E /* SceneDelegate.swift */,
 				49DB5EFF2AF7D3E8006FD43E /* ViewController.swift */,
@@ -125,6 +134,17 @@
 				49DB5F1E2AF7D3EE006FD43E /* FlavorsUITestsLaunchTests.swift */,
 			);
 			path = FlavorsUITests;
+			sourceTree = "<group>";
+		};
+		49DB5F2B2AF7D4FD006FD43E /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				49DB5F2C2AF7D51E006FD43E /* Base.xcconfig */,
+				49DB5F2E2AF7D545006FD43E /* Debug.xcconfig */,
+				49DB5F2F2AF7D551006FD43E /* Staging.xcconfig */,
+				49DB5F302AF7D564006FD43E /* Release.xcconfig */,
+			);
+			path = Configs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +253,11 @@
 			files = (
 				49DB5F082AF7D3ED006FD43E /* LaunchScreen.storyboard in Resources */,
 				49DB5F052AF7D3ED006FD43E /* Assets.xcassets in Resources */,
+				49DB5F332AF7D56E006FD43E /* Debug.xcconfig in Resources */,
 				49DB5F032AF7D3E8006FD43E /* Main.storyboard in Resources */,
+				49DB5F2D2AF7D51E006FD43E /* Base.xcconfig in Resources */,
+				49DB5F322AF7D56B006FD43E /* Staging.xcconfig in Resources */,
+				49DB5F312AF7D564006FD43E /* Release.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
