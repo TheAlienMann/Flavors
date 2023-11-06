@@ -1,0 +1,30 @@
+{
+  "configurations" : [
+    {
+      "id" : "F8EC7C46-7B3E-4D78-BCBC-71856852ABCE",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : false,
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:Flavors.xcodeproj",
+      "identifier" : "49DB5EF72AF7D3E8006FD43E",
+      "name" : "Flavors"
+    },
+    "testExecutionOrdering" : "random"
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:Flavors.xcodeproj",
+        "identifier" : "49DB5F0D2AF7D3EE006FD43E",
+        "name" : "FlavorsTests"
+      }
+    }
+  ],
+  "version" : 1
+}
