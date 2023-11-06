@@ -1,1 +1,11 @@
+#include "Base.xcconfig"
 
+APP_NAME = $(inherited)
+
+ASSETCATALOG_COMPILER_APPICON_NAME = $(inherited)
+
+PRODUCT_BUNDLE_IDENTIFIER = $(inherited)
+
+BASE_URL = $(inherited)
+
+API_KEY = $(inherited)
