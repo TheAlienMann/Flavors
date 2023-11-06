@@ -54,6 +54,7 @@
 		49DB5F2F2AF7D551006FD43E /* Staging.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Staging.xcconfig; sourceTree = "<group>"; };
 		49DB5F302AF7D564006FD43E /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
 		49DB5F342AF915CD006FD43E /* FlavorsTests.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = FlavorsTests.xctestplan; sourceTree = "<group>"; };
+		49DB5F352AF9166A006FD43E /* FlavorsUITests.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = FlavorsUITests.xctestplan; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +85,7 @@
 		49DB5EEF2AF7D3E8006FD43E = {
 			isa = PBXGroup;
 			children = (
+				49DB5F352AF9166A006FD43E /* FlavorsUITests.xctestplan */,
 				49DB5F342AF915CD006FD43E /* FlavorsTests.xctestplan */,
 				49DB5EFA2AF7D3E8006FD43E /* Flavors */,
 				49DB5F112AF7D3EE006FD43E /* FlavorsTests */,
